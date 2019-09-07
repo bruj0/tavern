@@ -4,11 +4,11 @@ import logging
 import re
 
 from future.utils import raise_from
-from pykwalify.types import is_int, is_float, is_bool
+from pykwalify.types import is_bool, is_float, is_int
 
 from tavern.util import exceptions
 from tavern.util.exceptions import BadSchemaError
-from tavern.util.loader import ApproxScalar, IntToken, FloatToken, BoolToken
+from tavern.util.loader import ApproxScalar, BoolToken, FloatToken, IntToken
 
 
 def _getlogger():
