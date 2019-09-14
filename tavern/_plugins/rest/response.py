@@ -14,7 +14,6 @@ except ImportError:
     from urlparse import urlparse, parse_qs  # type: ignore
 
 
-
 logger = logging.getLogger(__name__)
 
 

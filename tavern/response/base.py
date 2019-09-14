@@ -14,7 +14,6 @@ except ImportError:
     from collections import Mapping
 
 
-
 logger = logging.getLogger(__name__)
 
 

@@ -19,8 +19,6 @@ except ImportError:
     LoadError = FileNotFoundError  # noqa
 
 
-
-
 # MQTT error values
 _err_vals = {
     -1: "MQTT_ERR_AGAIN",

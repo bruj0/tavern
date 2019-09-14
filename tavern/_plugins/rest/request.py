@@ -25,8 +25,6 @@ except ImportError:
     from urllib import quote_plus  # type: ignore
 
 
-
-
 logger = logging.getLogger(__name__)
 
 
